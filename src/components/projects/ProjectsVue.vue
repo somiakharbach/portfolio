@@ -5,9 +5,9 @@ import ProjectsList from "./ProjectsList.vue";
 
 <template>
 
-  <div class="component-content">
-  <div class="name absolute top-48 pl-24">
-    <div class="text-6xl "> PROJECTS </div>
+  <div class="component-project">
+  <div class="name absolute ">
+<!--    <div class="text-6xl ">  </div>-->
     <ProjectsList>  </ProjectsList>
   </div>
 
@@ -19,6 +19,5 @@ import ProjectsList from "./ProjectsList.vue";
 <style scoped>
 .name {
   color: #0e0b05;
-  top: 250px;
 }
 </style>
