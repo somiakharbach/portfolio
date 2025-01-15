@@ -21,7 +21,7 @@ defineProps<{ msg: string }>()
 <!--    <div class="wave"></div>-->
 <!--  </div>-->
 
-  <div class="flex flex-row md:flex-row justify-evenly border-black border-b-2">
+  <div class="flex flex-row md:flex-row justify-evenly border-black border-b-2 ">
      <router-link to="/">  <NavbarButton title="HOME"></NavbarButton>  </router-link>
     <router-link to="/projects">  <NavbarButton title="PROJECTS"></NavbarButton>  </router-link>
     <router-link to="/skills">
