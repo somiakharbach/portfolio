@@ -5,6 +5,7 @@ import routes from './routes'
 import 'aos/dist/aos.css'
 
 
+
 const app = createApp(App)
 app.use(routes)
 app.mount('#app')

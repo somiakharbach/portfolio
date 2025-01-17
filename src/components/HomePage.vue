@@ -21,7 +21,7 @@ function openCV() {
     <div class="name absolute top-48 pl-6 md:pl-24">
       <div class="text-3xl md:text-6xl">KHARBACH SOMIA</div>
       <div class="text-base md:text-xl mt-2">
-    Full-stack developer | Computer science graduate
+    Full-stack developer looking for a full time position
   </div>
   <div class="mt-8 text-sm md:text-base">
     <p class="font-light">
@@ -30,7 +30,7 @@ function openCV() {
       two years of experience
       </span>
       <br>
-      specializing in creating modern and efficient
+      Specializing in creating modern and efficient
       web applications.
       <span class="text-white font-bold">
       Let's build something great together! </span>
@@ -58,7 +58,7 @@ function openCV() {
       <img src="../assets/email.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce hover:animate-none" />
     </IconsHomePage>
       <IconsHomePage @click="openCV()" >
-        <img src="../assets/cv.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce hover:animate-none" />
+        <img src="../assets/cv.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce-delayed hover:animate-none" />
       </IconsHomePage>
   </div>
   </div>

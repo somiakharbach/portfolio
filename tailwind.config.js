@@ -9,6 +9,8 @@ export default {
       animation: {
         bounce : 'bounce 1s infinite',
         'bounce-delayed': 'bounce 1s infinite 0.5s',
+        pulse: 'pulse 1s infinite',
+        'pulse-delayed': 'pulse 1s infinite 0.5s',
 
       }
     },
