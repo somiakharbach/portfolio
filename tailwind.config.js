@@ -12,6 +12,9 @@ export default {
         pulse: 'pulse 1s infinite',
         'pulse-delayed': 'pulse 1s infinite 0.5s',
 
+      },
+      screens:{
+        '3xl': '1960px',
       }
     },
   },

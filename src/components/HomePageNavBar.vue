@@ -8,31 +8,23 @@ defineProps<{ msg: string }>()
 </script>
 
 <template>
-<!--   <div class="center">-->
-<!--      <figure class="circle" >-->
-
-<!--      </figure>-->
-
-<!--   </div>-->
-
-<!--  <div>-->
-<!--    <div class="wave"></div>-->
-<!--    <div class="wave"></div>-->
-<!--    <div class="wave"></div>-->
-<!--  </div>-->
-
-  <div class="flex flex-row md:flex-row justify-evenly border-black border-b-2 ">
-     <router-link to="/">  <NavbarButton title="HOME"></NavbarButton>  </router-link>
-    <router-link to="/projects">  <NavbarButton title="PROJECTS"></NavbarButton>  </router-link>
+  <div class="flex flex-row justify-evenly border-black border-b-2 space-x-1 py-1 sm:space-x-2 md:space-x-4">
+    <router-link to="/">
+      <NavbarButton title="HOME" />
+    </router-link>
+    <router-link to="/projects">
+      <NavbarButton title="PROJECTS" />
+    </router-link>
     <router-link to="/skills">
-      <NavbarButton title="SKILLS"></NavbarButton>
+      <NavbarButton title="SKILLS" />
     </router-link>
     <router-link to="/education">
-      <NavbarButton title="EDUCATION"></NavbarButton>
+      <NavbarButton title="EDUCATION" />
     </router-link>
   </div>
-
 </template>
+
+
 
 <style scoped>
 .flex {

@@ -17,7 +17,6 @@ function openCV() {
 </script>
 
 <template>
-  <div class="component-content">
     <div class="name absolute top-48 pl-6 md:pl-24">
       <div class="text-3xl md:text-6xl">KHARBACH SOMIA</div>
       <div class="text-base md:text-xl mt-2">
@@ -60,7 +59,6 @@ function openCV() {
       <IconsHomePage @click="openCV()" >
         <img src="../assets/cv.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce-delayed hover:animate-none" />
       </IconsHomePage>
-  </div>
   </div>
 </template>
 
