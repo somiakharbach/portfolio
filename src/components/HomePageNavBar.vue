@@ -8,7 +8,7 @@ defineProps<{ msg: string }>()
 </script>
 
 <template>
-  <div class="flex flex-row justify-evenly border-black border-b-2 space-x-1 py-1 sm:space-x-2 md:space-x-4">
+  <div class="flex flex-row justify-evenly border-amber-50 border-b-2 space-x-1 py-1 sm:space-x-2 md:space-x-4">
     <router-link to="/">
       <NavbarButton title="HOME" />
     </router-link>

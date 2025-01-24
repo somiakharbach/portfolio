@@ -17,53 +17,63 @@ function openCV() {
 </script>
 
 <template>
-    <div class="name absolute top-48 pl-6 md:pl-24">
-      <div class="text-3xl md:text-6xl">KHARBACH SOMIA</div>
-      <div class="text-base md:text-xl mt-2">
-    Full-stack developer looking for a full time position
-  </div>
-  <div class="mt-8 text-sm md:text-base">
+    <div class="content absolute top-48 pl-1 sm:pl-24 text-white">
+      <div class="typing-animation">
+        <div class="text-base sm:text-3xl md:text-6xl yatra-one-regular"> Hi, I'm <span> SOMIA ;),  </span>
+          <span class="text-base sm:text-3xl md:text-4xl text-yellow-200 font-bold"> your next full-stack developer </span>
+        </div>
+      </div>
+<!--      <div class="typing-animation1">-->
+<!--        <span class="text-base md:text-xl ml-8 text-yellow-200 font-bold"> Your next full-stack developer </span>-->
+<!--      </div>-->
+    <div class="mt-8 text-sm md:text-base">
     <p class="font-light">
-      Passionate full-stack developer with
-      <span class="text-white font-bold">
-      two years of experience
-      </span>
+      Passionate about full-stack development, I bring over <span class="text-blue-400 font-bold"> two years of experience </span>
+      in crafting modern web applications,
+      <br> supported by a functional and organized approach to project management.
+      <br> I am a <span class="text-blue-400 font-bold"> quick learner </span> and a <span class="text-blue-400 font-bold">
+      team player </span> who is always eager to learn and grow.
       <br>
-      Specializing in creating modern and efficient
-      web applications.
-      <span class="text-white font-bold">
-      Let's build something great together! </span>
+      <br>
+      <span class="text-yellow-200 font-bold ml-8">
+      I’m here to make an impact ! </span>
     </p>
-
-    <!--    <p >I am a 24-year-old Computer Science student-->
-<!--      <br>-->
-<!--      enrolled in the Master's program in <span class="text-black font-bold"> MIAGE </span>  (Computer Science + Project Management)-->
-<!--      <br>-->
-<!--      at the University <span class="text-black font-bold"> Paul Sabatier in Toulouse, France. </span>-->
-<!--      <br>-->
-<!--      Concurrently, I am employed as a <span class="text-black font-bold"> full-stack developer  </span> at-->
-<!--      <span class="text-black font-bold"> ORANGE </span>-->
-<!--    </p>-->
   </div>
 </div>
     <div class="absolute bottom-4 right-4 md:right-12 flex gap-2 ">
       <IconsHomePage @click="redirectToSite('https://github.com/LSQYM')" >
-      <img src="../assets/github-sign.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce hover:animate-none"  />
+      <img src="../assets/icons8-github-24.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce hover:animate-none"  />
     </IconsHomePage>
     <IconsHomePage @click="redirectToSite('https://www.linkedin.com/in/somia-kharbach-2692a11bb/')">
-      <img src="../assets/linkedin.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce-delayed hover:animate-none"  />
+      <img src="../assets/icons8-linkedin-50.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce-delayed hover:animate-none"  />
     </IconsHomePage>
     <IconsHomePage @click="sendMail()" >
-      <img src="../assets/email.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce hover:animate-none" />
+      <img src="../assets/icons8-apple-mail-50.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce hover:animate-none" />
     </IconsHomePage>
       <IconsHomePage @click="openCV()" >
-        <img src="../assets/cv.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce-delayed hover:animate-none" />
+        <img src="../assets/icons8-cv-100.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce-delayed hover:animate-none" />
       </IconsHomePage>
   </div>
 </template>
 
 <style scoped>
-.name{
+@keyframes typing {
+  from { width: 0; border-right: .15em solid white; }
+  to { width: 100%; border-right: .15em solid white; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: white; }
+}
+
+.typing-animation {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+}
+
+.content{
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
