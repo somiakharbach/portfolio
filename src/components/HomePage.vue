@@ -19,7 +19,7 @@ function openCV() {
 <template>
     <div class="content absolute top-48 pl-1 sm:pl-24 text-white">
       <div class="typing-animation">
-        <div class="text-base sm:text-3xl md:text-6xl yatra-one-regular"> Hi, I'm <span> SOMIA ;),  </span>
+        <div class="text-base sm:text-3xl md:text-6xl yatra-one-regular"> Hi ! I'm <span> SOMIA ;),  </span>
           <span class="text-base sm:text-3xl md:text-4xl text-yellow-200 font-bold"> your next full-stack developer </span>
         </div>
       </div>
@@ -40,19 +40,19 @@ function openCV() {
     </p>
   </div>
 </div>
-    <div class="absolute bottom-4 right-4 md:right-12 flex gap-2 ">
-      <IconsHomePage @click="redirectToSite('https://github.com/LSQYM')" >
-      <img src="../assets/icons8-github-24.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce hover:animate-none"  />
+  <div class="absolute bottom-2 right-2 sm:bottom-4 sm:right-4 md:right-12 flex gap-2">
+    <IconsHomePage @click="redirectToSite('https://github.com/LSQYM')">
+      <img src="../assets/icons8-github-24.png" alt="icon" class="icon animate-pulse hover:animate-none"/>
     </IconsHomePage>
     <IconsHomePage @click="redirectToSite('https://www.linkedin.com/in/somia-kharbach-2692a11bb/')">
-      <img src="../assets/icons8-linkedin-50.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce-delayed hover:animate-none"  />
+      <img src="../assets/icons8-linkedin-50.png" alt="icon" class="icon animate-pulse-delayed hover:animate-none"/>
     </IconsHomePage>
-    <IconsHomePage @click="sendMail()" >
-      <img src="../assets/icons8-apple-mail-50.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce hover:animate-none" />
+    <IconsHomePage @click="sendMail()">
+      <img src="../assets/icons8-apple-mail-50.png" alt="icon" class="icon animate-pulse hover:animate-none"/>
     </IconsHomePage>
-      <IconsHomePage @click="openCV()" >
-        <img src="../assets/icons8-cv-100.png" alt="icon" style="width: 36px; height: 36px;"  class="w-8 h-8 md:w-9 md:h-9 animate-bounce-delayed hover:animate-none" />
-      </IconsHomePage>
+    <IconsHomePage @click="openCV()">
+      <img src="../assets/icons8-cv-100.png" alt="icon" class="icon animate-pulse-delayed hover:animate-none"/>
+    </IconsHomePage>
   </div>
 </template>
 
@@ -86,5 +86,49 @@ function openCV() {
   font-style: italic;
 }
 
+.icon {
+  width: 36px;
+  height: 36px;
+  transition: transform 0.2s;
+}
 
+@media (max-width: 640px) {
+  .content {
+    top: 30%;
+  }
+
+  .text-base {
+    font-size: 1rem;
+  }
+
+  .text-sm {
+    font-size: 0.875rem;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .content {
+    top: 30%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .text-base {
+    font-size: 1.5rem;
+  }
+
+  .text-sm {
+    font-size: 1rem;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+}
 </style>
