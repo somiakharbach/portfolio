@@ -41,7 +41,7 @@ function openCV() {
   </div>
 </div>
   <div class="absolute bottom-2 right-2 sm:bottom-4 sm:right-4 md:right-12 flex gap-2">
-    <IconsHomePage @click="redirectToSite('https://github.com/LSQYM')">
+    <IconsHomePage @click="redirectToSite('https://github.com/somiakharbach')">
       <img src="../assets/icons8-github-24.png" alt="icon" class="icon animate-pulse hover:animate-none"/>
     </IconsHomePage>
     <IconsHomePage @click="redirectToSite('https://www.linkedin.com/in/somia-kharbach-2692a11bb/')">

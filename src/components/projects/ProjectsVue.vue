@@ -46,7 +46,7 @@ To make the `ProjectsVue.vue` component responsive on all screens, you can use C
 
       <div class="row-start-5 col-start-1 self-start" data-aos="zoom-out-down" data-aos-duration="2000">
         <div class="flex flex-col items-center bg-neutral-300 border border-gray-200 rounded-lg shadow w-full max-w-xs sm:max-w-2xl hover:bg-opacity-70 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 custom-card">
-          <img class="object-cover w-full rounded-t-lg h-40 sm:h-60" src="/src/images/portfo.png" alt="">
+          <img class="object-cover w-full rounded-t-lg h-40 sm:h-60" src="/src/assets/screenshot portfolio .png" alt="">
           <div class="flex flex-col justify-start p-4">
             <h5 class="mb-2 text-xl sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white self-center">PORTFOLIO</h5>
             <p class="mb-3 font-light">
@@ -54,6 +54,7 @@ To make the `ProjectsVue.vue` component responsive on all screens, you can use C
               <p class="font-bold">Technologies used:</p> Vue.js, Tailwind CSS, JS
             </p>
           </div>
+          <img src="/src/assets/internet.png" alt="icon" style="width: 36px; height: 36px;" class="w-8 h-8 md:w-9 md:h-9 cursor-pointer" @click="redirectToSite('')" />
         </div>
       </div>
     </div>
