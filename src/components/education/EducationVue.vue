@@ -72,7 +72,7 @@
 
 <style scoped>
 
-.education{
+.education {
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -97,18 +97,55 @@
   opacity: 70%;
 }
 
-.icon{
+.icon {
   width: 20px;
-  height: 20px ;
+  height: 20px;
 }
 
-.flex{
+.flex {
   display: flex;
   align-items: center;
 }
 
-.ml-2{
+.ml-2 {
   margin-left: 0.5rem;
 }
 
+@media (max-width: 768px) {
+  .education {
+    padding: 10px;
+  }
+
+  .text-xl {
+    font-size: 1rem;
+  }
+
+  .point-content {
+    font-size: 0.875rem;
+  }
+
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .education {
+    padding: 5px;
+  }
+
+  .text-xl {
+    font-size: 0.875rem;
+  }
+
+  .point-content {
+    font-size: 0.75rem;
+  }
+
+  .icon {
+    width: 12px;
+    height: 12px;
+  }
+}
 </style>
