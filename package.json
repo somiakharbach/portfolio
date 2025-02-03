@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
-  "homepage": "https://somiakharbach.github.io/portfolio/",
+  "homepage": "https://somiakharbach.github.io/portfolio/src/main.ts",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
