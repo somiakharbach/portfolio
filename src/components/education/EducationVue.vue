@@ -5,7 +5,7 @@
 <template>
   <div class="education">
       <div class="flex justify-center items-center h-screen text-xl sm:text-2xl mt-10">
-        <p class="text-yellow-200 mr-9 text-xs sm:text-2xl"> My educational journey </p>
+        <p class="text-yellow-200 text-xs sm:text-2xl"> My educational journey </p>
         <div class="relative w-full max-w-4xl">
           <svg viewBox="0 0 800 200" class="w-full h-screen" xmlns="http://www.w3.org/2000/svg">
             <path d="M50 150 Q 25 10 180 100 T 350 100 T 520 100 T 690 10" stroke="grey" stroke-width="4" stroke-dasharray="10,15" fill="none" />
@@ -78,6 +78,11 @@
   font-weight: 300;
   font-style: normal;
   color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .text-xl {

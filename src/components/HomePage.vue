@@ -51,7 +51,7 @@ function openCV() {
       <img src="../assets/icons8-apple-mail-50.png" alt="icon" class="icon animate-pulse hover:animate-none"/>
     </IconsHomePage>
     <IconsHomePage @click="openCV()">
-      <img src="../assets/icons8-cv-100.png" alt="icon" class="icon animate-pulse-delayed hover:animate-none"/>
+      <img src="../assets/icons8-cv-48.png" alt="icon" class="icon animate-pulse-delayed hover:animate-none"/>
     </IconsHomePage>
   </div>
 </template>
