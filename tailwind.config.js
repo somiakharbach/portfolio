@@ -14,7 +14,7 @@ export default {
 
       },
       screens:{
-        '3xl': '1960px',
+        '3xl': '1920px',
       }
     },
   },

@@ -60,7 +60,7 @@ function redirectToSite(url: string) {
             </p>
           </div>
           <img src="/src/assets/internet.png" alt="icon" style="width: 36px; height: 36px;" class="w-8 h-8 md:w-9 md:h-9
-           cursor-pointer" @click="redirectToSite('')" />
+           cursor-pointer" @click="redirectToSite('https://somiakharbach.github.io/portfolio/')" />
         </div>
       </div>
     </div>

@@ -23,9 +23,6 @@ function openCV() {
           <span class="text-base sm:text-3xl md:text-4xl text-yellow-200 font-bold"> your next full-stack developer </span>
         </div>
       </div>
-<!--      <div class="typing-animation1">-->
-<!--        <span class="text-base md:text-xl ml-8 text-yellow-200 font-bold"> Your next full-stack developer </span>-->
-<!--      </div>-->
     <div class="mt-8 text-sm md:text-base">
     <p class="font-light">
       Passionate about full-stack development, I bring over <span class="text-blue-400 font-bold"> two years of experience </span>

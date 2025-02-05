@@ -11,14 +11,11 @@ import HomePageNavBar from "./components/HomePageNavBar.vue";
   <HomePageNavBar msg=""></HomePageNavBar>
 </div>
   <div>
-
     <transition name="fade" mode="out-in">
       <router-view></router-view>
     </transition>
   </div>
-
 </div>
-
 </template>
 
 <style scoped>
