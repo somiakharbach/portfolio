@@ -33,7 +33,7 @@ function openCV() {
       <br>
       <br>
       <span class="text-yellow-200 font-bold ml-8">
-      I’m here to make an impact ! </span>
+      I’m here to make an impact! </span>
     </p>
   </div>
 </div>
