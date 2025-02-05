@@ -11,7 +11,7 @@ function sendMail() {
 }
 
 function openCV() {
-  window.open('/portfolio/public/Kharbach-Somia-CV-1.pdf', '_blank');
+  window.open('/portfolio/Kharbach-Somia-CV-1.pdf', '_blank');
 }
 
 </script>
